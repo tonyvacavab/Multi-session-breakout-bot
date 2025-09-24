@@ -19,14 +19,17 @@ This bot monitors almost 500 Binance Futures coins across Asian, London, and New
 - Lets you monitor hundreds of coins at the same time
 - Can be extended to additional strategies like liquidity sweeps or moving averages
 
-*Setup Instructions (all in one place):*
-```bash
-# 1. Install required libraries
+*Setup Instructions 
+
+# 1. Install required libraries:
 pip install requests pandas pytz
+
 
 # 2. Add your Telegram API key and chat ID in a config.py file (do NOT upload real keys to GitHub)
 echo "TELEGRAM_TOKEN = 'YOUR_API_KEY_HERE'" > config.py
 echo "CHAT_ID = 'YOUR_CHAT_ID_HERE'" >> config.py
 
+
 # 3. Run the bot
-python Session_Breakout.py 
+python Session_Breakout.py
+
