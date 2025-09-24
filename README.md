@@ -34,14 +34,15 @@ Setup Instructions
 1. Install Required Libraries
 ```   
 pip install requests pandas pytz
-
+```
 3. Add Your Telegram API Key and Chat ID
 
 Create a config.py file and add:
 ```
 echo "TELEGRAM_TOKEN = 'YOUR_API_KEY_HERE'" > config.py
 echo "CHAT_ID = 'YOUR_CHAT_ID_HERE'" >> config.py
-
+```
 3. Run the Bot
-```   
+```
 python Session_Breakout.py
+```
