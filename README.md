@@ -24,5 +24,5 @@ This bot monitors almost 500 Binance Futures coins across Asian, London, and New
 ```python
 TELEGRAM_TOKEN = "YOUR_API_KEY_HERE"
 CHAT_ID = "YOUR_CHAT_ID_HERE"
-3. Run the bot: 
+3. Run the bot: Session_Breakout.py
    
